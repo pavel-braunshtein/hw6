@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dzx-qz-reE">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gd0-XE-Xbq">
+            <objects>
+                <viewController id="dzx-qz-reE" customClass="ViewController" customModule="HomeWork6" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pxh-kG-PWa">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photoR2" translatesAutoresizingMaskIntoConstraints="NO" id="KnU-IR-BMs">
+                                <rect key="frame" x="0.0" y="59" width="393" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="2Ek-9c-9n7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Материнська плата Asus ROG Strix B550-E Gaming (sAM4, AMD B550, PCI-Ex16)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1h-fe-sAR">
+                                <rect key="frame" x="10" y="369" width="363" height="79"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CpF-94-1BD">
+                                <rect key="frame" x="10.000000000000007" y="468" width="110.66666666666669" height="18"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Код 218525893">
+                                        <attributes>
+                                            <color key="NSColor" red="0.50196081400000003" green="0.49803921579999999" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="15"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="749" image="stars" translatesAutoresizingMaskIntoConstraints="NO" id="yfq-SM-Iba">
+                                <rect key="frame" x="242" y="442" width="141" height="68"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="PML-mT-oN2">
+                                <rect key="frame" x="0.0" y="508.00000000000006" width="398.66666666666669" height="117.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8 703 ₴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWf-1m-NC4">
+                                        <rect key="frame" x="10" y="0.0" width="378.66666666666669" height="36"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABR-Ka-Gjm">
+                                        <rect key="frame" x="10" y="58.000000000000007" width="378.66666666666669" height="20.333333333333336"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Самовивіз з наших магазинів - ">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="БЕЗКОШТОВНО">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.070588238540000001" green="0.56862747670000002" blue="0.090196087960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5D-qC-sd1">
+                                        <rect key="frame" x="10" y="100.33333333333337" width="378.66666666666669" height="17.333333333333329"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Забрати завтра з 12:00">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.39215683940000001" green="0.38823530080000002" blue="0.38823530080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="15" name="Helvetica"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="tintColor" red="0.50196081400000003" green="0.49803921579999999" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="z5D-qC-sd1" firstAttribute="leading" secondItem="PML-mT-oN2" secondAttribute="leading" constant="10" id="EOt-Uu-ymd"/>
+                                    <constraint firstItem="AWf-1m-NC4" firstAttribute="leading" secondItem="PML-mT-oN2" secondAttribute="leading" constant="10" id="aax-Ng-dcw"/>
+                                    <constraint firstItem="ABR-Ka-Gjm" firstAttribute="leading" secondItem="PML-mT-oN2" secondAttribute="leading" constant="10" id="mfp-Ag-cc0"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hzv-aj-cCL">
+                                <rect key="frame" x="10" y="659" width="373" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="5yx-FP-h6x"/>
+                                </constraints>
+                                <color key="tintColor" red="0.50196081400000003" green="0.49803921579999999" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="18"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="fixed">
+                                    <backgroundConfiguration key="background" cornerRadius="9" strokeWidth="1">
+                                        <color key="strokeColor" red="0.39215683940000001" green="0.38823530080000002" blue="0.38823530080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Купити в кредит">
+                                            <attributes>
+                                                <color key="NSColor" red="0.25490197539999998" green="0.57254904510000004" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <font key="NSFont" size="20" name="Arial-BoldMT"/>
+                                                <font key="NSOriginalFont" size="20" name="Webdings"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.25490197539999998" green="0.57254904510000004" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="creditbuy:" destination="dzx-qz-reE" eventType="touchUpInside" id="Tks-bO-2Yb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSr-F2-emN">
+                                <rect key="frame" x="191" y="756" width="174.66666666666663" height="62"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Купити зараз">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="0.25490197539999998" green="0.57254904510000004" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buyNow:" destination="dzx-qz-reE" eventType="touchUpInside" id="UcQ-l7-ffu"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillProportionally" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="pHW-zW-jIo">
+                                <rect key="frame" x="10" y="752" width="173.33333333333334" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAf-7M-Mtw">
+                                        <rect key="frame" x="0.0" y="0.0" width="50.666666666666664" height="70"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="scalemass" catalog="system"/>
+                                        <connections>
+                                            <action selector="compare:" destination="dzx-qz-reE" eventType="touchUpInside" id="t3R-Rb-jFa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nsp-Kx-dkn">
+                                        <rect key="frame" x="59.666666666666671" y="0.0" width="54" height="70"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="basket" catalog="system"/>
+                                        <connections>
+                                            <action selector="basket:" destination="dzx-qz-reE" eventType="touchUpInside" id="Opr-Be-xcV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3c-ag-KJj">
+                                        <rect key="frame" x="122.66666666666667" y="0.0" width="50.666666666666671" height="70"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system"/>
+                                        <connections>
+                                            <action selector="heart:" destination="dzx-qz-reE" eventType="touchUpInside" id="9Sc-T1-p1Q"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="YrD-ep-a83"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Sxr-KQ-jFZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hzv-aj-cCL" firstAttribute="leading" secondItem="Sxr-KQ-jFZ" secondAttribute="leading" constant="10" id="27x-9D-ytG"/>
+                            <constraint firstItem="pHW-zW-jIo" firstAttribute="top" secondItem="hzv-aj-cCL" secondAttribute="bottom" constant="23" id="2ti-aA-eYf"/>
+                            <constraint firstItem="KnU-IR-BMs" firstAttribute="leading" secondItem="Sxr-KQ-jFZ" secondAttribute="leading" id="3bA-t3-igQ"/>
+                            <constraint firstItem="Sxr-KQ-jFZ" firstAttribute="trailing" secondItem="pHW-zW-jIo" secondAttribute="trailing" constant="209.66999999999999" id="3jn-4d-S9B"/>
+                            <constraint firstItem="PML-mT-oN2" firstAttribute="top" secondItem="yfq-SM-Iba" secondAttribute="bottom" constant="-2.0000000000000568" id="4pZ-cU-bMe"/>
+                            <constraint firstItem="Z1h-fe-sAR" firstAttribute="leading" secondItem="Sxr-KQ-jFZ" secondAttribute="leading" constant="10" id="9ir-Pj-ZIY"/>
+                            <constraint firstItem="CpF-94-1BD" firstAttribute="top" secondItem="Z1h-fe-sAR" secondAttribute="bottom" constant="20" id="BPu-L3-ocW"/>
+                            <constraint firstItem="Sxr-KQ-jFZ" firstAttribute="trailing" secondItem="hzv-aj-cCL" secondAttribute="trailing" constant="10" id="EAi-4S-b13"/>
+                            <constraint firstItem="GSr-F2-emN" firstAttribute="bottom" secondItem="Sxr-KQ-jFZ" secondAttribute="bottom" id="Gf9-5T-KEc"/>
+                            <constraint firstItem="GSr-F2-emN" firstAttribute="top" secondItem="hzv-aj-cCL" secondAttribute="bottom" constant="27" id="HZQ-lr-uwy"/>
+                            <constraint firstItem="GSr-F2-emN" firstAttribute="leading" secondItem="pHW-zW-jIo" secondAttribute="trailing" constant="7.6666666666666572" id="JTb-Zc-yKf"/>
+                            <constraint firstItem="CpF-94-1BD" firstAttribute="leading" secondItem="Z1h-fe-sAR" secondAttribute="leading" id="UjN-la-lP6"/>
+                            <constraint firstItem="yfq-SM-Iba" firstAttribute="leading" secondItem="CpF-94-1BD" secondAttribute="trailing" constant="121.33" id="hMP-z2-90x"/>
+                            <constraint firstItem="KnU-IR-BMs" firstAttribute="top" secondItem="Sxr-KQ-jFZ" secondAttribute="top" id="iFp-HG-va0"/>
+                            <constraint firstItem="hzv-aj-cCL" firstAttribute="top" secondItem="PML-mT-oN2" secondAttribute="bottom" constant="33.333333333333258" id="mm9-zP-gCP"/>
+                            <constraint firstItem="PML-mT-oN2" firstAttribute="leading" secondItem="Sxr-KQ-jFZ" secondAttribute="leading" id="mya-ec-6BK"/>
+                            <constraint firstItem="GSr-F2-emN" firstAttribute="centerY" secondItem="pHW-zW-jIo" secondAttribute="centerY" id="mzD-hm-oXp"/>
+                            <constraint firstItem="Sxr-KQ-jFZ" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GSr-F2-emN" secondAttribute="trailing" symbolic="YES" id="qIb-rB-zwf"/>
+                            <constraint firstItem="Sxr-KQ-jFZ" firstAttribute="trailing" secondItem="KnU-IR-BMs" secondAttribute="trailing" id="qPK-hP-RqL"/>
+                            <constraint firstItem="Sxr-KQ-jFZ" firstAttribute="trailing" secondItem="yfq-SM-Iba" secondAttribute="trailing" constant="10" id="tGJ-ff-T34"/>
+                            <constraint firstItem="Z1h-fe-sAR" firstAttribute="top" secondItem="KnU-IR-BMs" secondAttribute="bottom" constant="10" id="vzD-uZ-S7A"/>
+                            <constraint firstItem="yfq-SM-Iba" firstAttribute="top" secondItem="KnU-IR-BMs" secondAttribute="bottom" constant="83" id="w6H-lH-D1G"/>
+                            <constraint firstItem="Sxr-KQ-jFZ" firstAttribute="trailing" secondItem="Z1h-fe-sAR" secondAttribute="trailing" constant="20" id="zRF-Cb-feD"/>
+                            <constraint firstItem="pHW-zW-jIo" firstAttribute="leading" secondItem="Sxr-KQ-jFZ" secondAttribute="leading" constant="10" id="zTF-GI-QKc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="Z1h-fe-sAR" id="u9w-gM-L8R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jTZ-eC-ocp" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-132.06106870229007" y="-9.1549295774647899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="basket" catalog="system" width="128" height="108"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="photoR2" width="960" height="800"/>
+        <image name="scalemass" catalog="system" width="128" height="121"/>
+        <image name="stars" width="278" height="68"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
